@@ -3,5 +3,5 @@ project(VideoShare)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES src/C/main.cpp)
 add_executable(VideoShare ${SOURCE_FILES})
